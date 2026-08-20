@@ -21,6 +21,6 @@ app.use('/doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 Servidor del Museo Digital ejecutándose en http://localhost:${PORT}`);
-  console.log(`📑 Panel interactivo de pruebas listo en http://localhost:${PORT}/doc`);
+  console.log(`Servidor del Museo Digital ejecutándose en http://localhost:${PORT}`);
+  console.log(` Panel interactivo de pruebas listo en http://localhost:${PORT}/doc`);
 });
